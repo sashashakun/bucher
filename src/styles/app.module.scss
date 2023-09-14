@@ -1,0 +1,63 @@
+.root {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+}
+
+.mapsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapsHeader {
+  margin-right: 20px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.preview {
+  position: absolute;
+  bottom: 10px;
+  right: 35%;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  max-width: 200px;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+
+.mapsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.previewText {
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 999;
+  position: absolute;
+  bottom: 10px;
+  right: 31%;
+}
+
+@media (max-width: 1250px) {
+  .root {
+    align-items: center;
+  }
+}

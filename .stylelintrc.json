@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-hudochenkov/order"
+  ],
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "rules": {
+    "order/properties-alphabetical-order": null,
+    "order/order": ["custom-properties", "dollar-variables", "declarations"],
+    "selector-class-pattern": "^[a-zA-Z0-9]+$"
+  }
+}
